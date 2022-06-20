@@ -1,0 +1,12 @@
+- name: Install software
+  import_tasks: installs.yml
+  tags:
+    - brew
+    - installs
+
+- name: Configure dotfiles
+  import_tasks: dotfiles.yml
+  tags:
+    - install
+    - dotfiles
+    - stow

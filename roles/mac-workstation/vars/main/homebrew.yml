@@ -1,0 +1,58 @@
+homebrew_taps:
+  - bufbuild/buf
+  - homebrew/bol
+  - homebrew/bundle
+  - homebrew/cask
+  - homebrew/cask-fonts
+  - homebrew/core
+
+homebrew_packages:
+  - bat
+  - bufbuild/buf/buf
+  - cmake
+  - cookiecutter
+  - elixir
+  - fzf
+  - golangci-lint
+  - grpcurl
+  - homebrew/bol/proxer
+  - hugo
+  - jq
+  - k9s
+  - kubectx
+  - kustomize
+  - lua
+  - maven
+  - minikube
+  - neovim
+  - node
+  - openconnect
+  - pgcli
+  - postgresql
+  - protobuf
+  - starship
+  - stern
+  - stow
+  - szip
+  - the_silver_searcher
+  - thefuck
+  - tilt
+  - tmux
+  - vips
+  - vsftpd
+
+homebrew_package_removals: []
+
+homebrew_cask_packages:
+  - discord
+  - docker
+  - firefox
+  - font-iosevka
+  - java
+  - microsoft-teams
+  - notion
+  - spotify
+  - steam
+  - telegram
+
+homebrew_cask_removals: []

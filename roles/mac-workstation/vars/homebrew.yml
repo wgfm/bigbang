@@ -1,0 +1,69 @@
+homebrew_taps:
+  - bufbuild/buf
+  - homebrew/bol
+  - homebrew/bundle
+  - homebrew/cask
+  - homebrew/cask-fonts
+  - homebrew/core
+
+homebrew_packages:
+  - bat
+  - bufbuild/buf/buf
+  - cmake
+  - cookiecutter
+  - elixir
+  - fzf
+  - golangci-lint
+  - grpcurl
+  - homebrew/bol/proxer
+  - hugo
+  - jq
+  - k9s
+  - kubectx
+  - kustomize
+  - lua
+  - maven
+  - minikube
+  - neovim
+  - node
+  - openconnect
+  - pgcli
+  - postgresql
+  - protobuf
+  - starship
+  - stern
+  - stow
+  - szip
+  - the_silver_searcher
+  - thefuck
+  - tilt
+  - tldr
+  - tmux
+  - vips
+  - vsftpd
+
+homebrew_package_removals: []
+
+homebrew_cask_packages:
+  - packge_name: discord
+    app: Discord.app
+  - package_name: docker
+    app: Docker.app
+  - package_name: firefox
+    app: Firefox.app
+
+  - package_name: font-iosevka
+    app: none
+
+  - package_name: microsoft-teams
+    app: Microsoft Teams.app
+  - package_name: notion
+    app: Notion.app
+  - package_name: spotify
+    app: Spotify.app
+  - package_name: steam
+    app: Steam.app
+  - package_name: telegram
+    app: Telegram.app
+
+homebrew_cask_removals: []
