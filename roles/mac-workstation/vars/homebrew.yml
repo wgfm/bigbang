@@ -1,6 +1,4 @@
 homebrew_taps:
-  - bufbuild/buf
-  - homebrew/bol
   - homebrew/bundle
   - homebrew/cask
   - homebrew/cask-fonts
@@ -8,14 +6,13 @@ homebrew_taps:
 
 homebrew_packages:
   - bat
-  - bufbuild/buf/buf
   - cmake
   - cookiecutter
-  - elixir
+  - corepack
   - fzf
   - golangci-lint
   - grpcurl
-  - homebrew/bol/proxer
+  - httpie
   - hugo
   - jq
   - k9s
@@ -30,17 +27,17 @@ homebrew_packages:
   - pgcli
   - postgresql
   - protobuf
+  - ripgrep
   - starship
   - stern
   - stow
   - szip
-  - the_silver_searcher
   - thefuck
   - tilt
   - tldr
   - tmux
-  - vips
   - vsftpd
+  - yq
 
 homebrew_package_removals: []
 
@@ -55,8 +52,6 @@ homebrew_cask_packages:
   - package_name: font-iosevka
     app: none
 
-  - package_name: microsoft-teams
-    app: Microsoft Teams.app
   - package_name: notion
     app: Notion.app
   - package_name: spotify
